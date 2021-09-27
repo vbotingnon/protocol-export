@@ -1,0 +1,24 @@
+{
+    "name": "neoassist/protocol-export",
+    "description": "Biblioteca de exportacao de protocolos por ordem de atualizacao",
+    "type": "library",
+    "license": "GNU General Public License v3.0",
+    "autoload": {
+        "psr-4": {
+            "Neoassist\\ProtocolExport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neoassist",
+            "email": "infra@neoassist.com"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
